@@ -1,0 +1,23 @@
+Instalacion Angular
+
+actualizar npm
+version node.js 18.19 minimun
+npm install -g npm@latest
+
+npm install -g @angular/cli
+
+en la carpeta de proyectos
+ng new mi-aplicacion
+
+
+interpolacion, enviar datos desde typescript(app.ts) hacia el html (app.html)
+
+
+ng generate component welcome
+
+creando un objeto a raiz de una instancia
+
+interacciones condicionales e iterativas
+
+interface, para crear un tipo de producto o componente
+

@@ -1,0 +1,16 @@
+<h2>Categorias</h2>
+
+<ul>
+    <li *ngFor="let categoria of categorias">
+        <div *ngIf="categoria.nombre">
+            {{ categoria.nombre }}
+            <span [ngSwitch]="categoria.material">
+                <span *ngSwitchCase="'madera'"> Categoria: Madera</span>
+                <span *ngSwitchCase="'cuero'"> Categoria: Cuero</span>
+                <span *ngSwitchCase="'abs'"> Categoria: Abs</span>
+                <span *ngSwitchDefault> Categoria: Otros</span>
+            </span>
+
+        </div>
+    </li>
+</ul>

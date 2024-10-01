@@ -1,0 +1,6 @@
+<form>
+    <label>
+        <input type="checkbox" [(ngModel)]="aceptaTerminos" name="terminos" id="terminos">
+    </label>
+    <button [disabled]="!aceptaTerminos">Enviar</button>
+</form>

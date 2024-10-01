@@ -1,0 +1,16 @@
+<h2>Productos disponibles</h2>
+
+<ul>
+    <li *ngFor="let producto of productos">
+        <div *ngIf="producto.disponible">
+            {{ producto.nombre }}
+            <span [ngSwitch]="producto.tipo">
+                <span *ngSwitchCase="'Electronica'"> Categoria: Electronica</span>
+                <span *ngSwitchCase="'Muebles'"> Categoria: Muebles</span>
+                <span *ngSwitchCase="'Calzado'"> Categoria: Calzado</span>
+                <span *ngSwitchDefault> Categoria: Otros</span>
+            </span>
+
+        </div>
+    </li>
+</ul>
