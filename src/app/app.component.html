@@ -1,8 +1,35 @@
 
-<router-outlet />
-<app-welcome></app-welcome>
-<app-productos></app-productos>
-<app-categorias></app-categorias> 
-<app-contador></app-contador>
-<app-formulario></app-formulario>
-<app-calculadora></app-calculadora>
+<router-outlet></router-outlet>
+
+<div class="container">
+    <header>
+      <app-welcome></app-welcome>
+    </header>
+    
+    <main>
+      <section>
+        <app-productos></app-productos>
+      </section>
+  
+      <section>
+        <app-categorias></app-categorias>
+      </section>
+  
+      <section>
+        <app-contador></app-contador>
+      </section>
+  
+      <section>
+        <app-formulario></app-formulario>
+      </section>
+  
+      <section>
+        <app-calculadora></app-calculadora>
+      </section>
+    </main>
+    
+    <footer>
+      <p>&copy; 2024 Mi Aplicación</p>
+    </footer>
+  </div>
+  

@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    grid-template-areas: 
+      "header header"
+      "productos categorias"
+      "contador formulario"
+      "calculadora calculadora";
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  header {
+    grid-area: header;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  section {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  footer {
+    grid-area: footer;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
