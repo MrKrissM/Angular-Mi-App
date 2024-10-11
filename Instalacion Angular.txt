@@ -21,3 +21,7 @@ interacciones condicionales e iterativas
 
 interface, para crear un tipo de producto o componente
 
+eliminar git de proyecto:
+cd carpeta/
+rm -rf .git
+

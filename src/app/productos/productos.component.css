@@ -1,0 +1,11 @@
+.productos li, .categorias li {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .productos span, .categorias span {
+    font-weight: bold;
+    color: #e74c3c;
+  }
